@@ -180,7 +180,7 @@ def vehicle_to_dict(veh_id, vehicle):
         'length': vehicle[tc.VAR_LENGTH],
         'width': vehicle[tc.VAR_WIDTH],
         'signals': vehicle[tc.VAR_SIGNALS],
-        'vClass': vehicle.get(tc.VAR_VEHICLECLASS),
+        'vClass': 'passenger',
     }
     if 'human' not in veh_id:
         dict['vClass'] = 'av'
