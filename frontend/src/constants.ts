@@ -28,8 +28,8 @@ export const SUPPORTED_VEHICLE_CLASSES: {[sumoVehicleClass: string]: SupportedVe
     label: 'car',
     models: [
       {
-    objectUrl: `/vehicles/car-normal-green.obj`,
-    materialUrl: `/vehicles/car-normal-green.mtl`,
+    objectUrl: `/vehicles/car-normal-citrus.obj`,
+    materialUrl: `/vehicles/car-normal-citrus.mtl`,
     scale: OGA_SCALE,
       },
     ],
